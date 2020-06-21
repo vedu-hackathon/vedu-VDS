@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ru.cepu.gateway"
+    },
+    "jhipsterVersion": "6.3.0",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "ru.cepu.gateway",
+    "packageFolder": "ru/cepu/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDYyOGU0NzA1NTZlMTYwOGU3MmM1MWE4NDUyMjhmNzNjN2FkYzM2ZWFiMmM5MTFhOTZhMDk0OTcyYjg1YTVlNGNhMTNhZjlkNGI3MGE3OWQ1NmZmY2I2MTdlZGE1MGI5ZmIwNDEwOTYzNDcyM2U0NjhmYmFjMjA2YTk2ZjYxOTE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

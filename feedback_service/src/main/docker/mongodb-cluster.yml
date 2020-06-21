@@ -1,0 +1,16 @@
+version: '2'
+services:
+  feedback_service-mongodb:
+    image: mongo:4.0.12
+    ports:
+      - '27017:27017'
+    command: mongos --configdb feedback_service-mongodb-config
+  feedback_service-mongodb-node:
+    build:
+      context: .
+      dockerfile: mongodb/MongoDB.Dockerfile
+    command: mongod --replSet rs1 --noprealloc --smallfiles
+  feedback_service-mongodb-config:
+    image: mongo:4.0.12
+    container_name: feedback_service-mongodb-config
+    command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

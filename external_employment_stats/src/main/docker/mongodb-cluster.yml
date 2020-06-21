@@ -1,0 +1,16 @@
+version: '2'
+services:
+  external_employment_stats-mongodb:
+    image: mongo:4.0.12
+    ports:
+      - '27017:27017'
+    command: mongos --configdb external_employment_stats-mongodb-config
+  external_employment_stats-mongodb-node:
+    build:
+      context: .
+      dockerfile: mongodb/MongoDB.Dockerfile
+    command: mongod --replSet rs1 --noprealloc --smallfiles
+  external_employment_stats-mongodb-config:
+    image: mongo:4.0.12
+    container_name: external_employment_stats-mongodb-config
+    command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

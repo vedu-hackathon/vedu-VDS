@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ru.cepu.main_status",
+    "packageFolder": "ru/cepu/main_status",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "main_status",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "gradle",
+    "serverPort": "8087",
+    "jhipsterVersion": "6.3.0",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "MTA3OGQxYzdjZDIzZjNkZjY1NWU0ZTFhZjY1OTE0ZTMxOTBmYjUxY2VmYmU0NmViYWFjNmM0NzA3MDcxNmZjNWUxNzM1MjY3MzU4M2Y3NjhlMTUxNGQ4OGYyOTE2YzFjNTk0M2M2NDgzMDgyNDcxOGVlNGNlYWFkYWFhNmMwMGU=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": []
+}

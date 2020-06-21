@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ru.cepu.student_stats",
+    "packageFolder": "ru/cepu/student_stats",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "student_stats",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "gradle",
+    "serverPort": "8086",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.3.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "YTMwZjRiODZlYmEyNjk3YjAxYmM0NmUzNWZkYjQxNmJiNGZmM2ZkMjg2MmRhMWNkMmRiNzQxZWRkMDNkODg2ZDlmNjYwNzMwOGI3M2UxOWQzMmE1NWUzN2UxZGQzNjM5YzVlMzNlMWY1YzI0YTgyMTE3YmE2YmMyOWMzZTljM2I=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": []
+}

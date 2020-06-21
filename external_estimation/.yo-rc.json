@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ru.cepu.external_estimation",
+    "packageFolder": "ru/cepu/external_estimation",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "external_estimation",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "gradle",
+    "serverPort": "8082",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.3.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "YmI2Y2RiNjZiNmVkMGJlNDA4YjNjNWU1NWQwMmYyNTQ3NWI4NWQ2MWE4ZmJiYzE0YzE3M2Q1OWNhZjZmOTU2MzBhOTMxNWU5YjVmZThlNGZlYzQ3NzMyYTVhY2Y2MmI3MDRjOWMyZDk4N2VjZmM2ZjcwMGM1MmE4NzJkMzdjNjc=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": []
+}

@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ru.cepu.external_employment_stats",
+    "packageFolder": "ru/cepu/external_employment_stats",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "external_employment_stats",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "gradle",
+    "serverPort": "8083",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.3.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "NGIxNDljNmIxNmFhNDRmOWUxNWIzZjk0MzBhMzZmZmU4MjZhZWUxZWMyMTAzNGYwNjY1MGE1NDUzZTQyZGIwZGQ3MmYzMzM0Y2Q3N2JiNTY1MmQyZDZmYzkxNWIyMjVlM2E4YWMyNGIwNWFkODY4OGE3ZTE5OGFlZWZlNDQ3MTY=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": []
+}

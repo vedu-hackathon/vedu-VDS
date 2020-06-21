@@ -1,0 +1,129 @@
+/*
+ * This is a microservice e-commerce store sample with Gateway and two microservice applications
+ * This uses JHipster registry for service discovery
+ */
+ 
+application {
+  config {
+    baseName main_status,
+    applicationType microservice,
+    packageName ru.cepu.main_status,
+    serviceDiscoveryType eureka,
+    authenticationType jwt,
+    prodDatabaseType postgresql,
+    cacheProvider hazelcast,
+    buildTool gradle,
+    serverPort 8087,
+    clientFramework react,
+    useSass true,
+    testFrameworks [protractor]
+  }
+}
+
+application {
+  config {
+    baseName online_course_stats,
+    applicationType microservice,
+    packageName ru.cepu.online_course_stats,
+    serviceDiscoveryType eureka,
+    authenticationType jwt,
+    databaseType mongodb,
+    prodDatabaseType mongodb,
+    buildTool gradle,
+    serverPort 8081,
+    skipUserManagement true
+  }
+}
+
+application {
+  config {
+    baseName external_estimation,
+    applicationType microservice,
+    packageName ru.cepu.external_estimation,
+    serviceDiscoveryType eureka,
+    authenticationType jwt,
+    databaseType mongodb,
+    prodDatabaseType mongodb,
+    devDatabaseType mongodb,
+    cacheProvider no,
+    enableHibernateCache false,
+    buildTool gradle,
+    serverPort 8082,
+    skipUserManagement true
+  }
+}
+
+application {
+  config {
+    baseName external_employment_stats,
+    applicationType microservice,
+    packageName ru.cepu.external_employment_stats,
+    serviceDiscoveryType eureka,
+    authenticationType jwt,
+    databaseType mongodb,
+    prodDatabaseType mongodb,
+    devDatabaseType mongodb,
+    cacheProvider no,
+    enableHibernateCache false,
+    buildTool gradle,
+    serverPort 8083,
+    skipUserManagement true
+  }
+}
+
+application {
+  config {
+    baseName ex_program_analisys,
+    applicationType microservice,
+    packageName ru.cepu.ex_program_analisys,
+    serviceDiscoveryType eureka,
+    authenticationType jwt,
+    databaseType mongodb,
+    prodDatabaseType mongodb,
+    devDatabaseType mongodb,
+    cacheProvider no,
+    enableHibernateCache false,
+    buildTool gradle,
+    serverPort 8084,
+    skipUserManagement true
+  }
+}
+
+application {
+  config {
+    baseName feedback_service,
+    applicationType microservice,
+    packageName ru.cepu.feedback_service,
+    serviceDiscoveryType eureka,
+    authenticationType jwt,
+    databaseType mongodb,
+    prodDatabaseType mongodb,
+    devDatabaseType mongodb,
+    cacheProvider no,
+    enableHibernateCache false,
+    buildTool gradle,
+    serverPort 8085,
+    skipUserManagement true
+  }
+}
+
+application {
+  config {
+    baseName student_stats,
+    applicationType microservice,
+    packageName ru.cepu.student_stats,
+    serviceDiscoveryType eureka,
+    authenticationType jwt,
+    databaseType mongodb,
+    prodDatabaseType mongodb,
+    devDatabaseType mongodb,
+    cacheProvider no,
+    enableHibernateCache false,
+    buildTool gradle,
+    serverPort 8086,
+    skipUserManagement true
+  }
+}
+
+
+

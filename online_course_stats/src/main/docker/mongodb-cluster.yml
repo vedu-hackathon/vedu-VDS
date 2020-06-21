@@ -1,0 +1,16 @@
+version: '2'
+services:
+  online_course_stats-mongodb:
+    image: mongo:4.0.12
+    ports:
+      - '27017:27017'
+    command: mongos --configdb online_course_stats-mongodb-config
+  online_course_stats-mongodb-node:
+    build:
+      context: .
+      dockerfile: mongodb/MongoDB.Dockerfile
+    command: mongod --replSet rs1 --noprealloc --smallfiles
+  online_course_stats-mongodb-config:
+    image: mongo:4.0.12
+    container_name: online_course_stats-mongodb-config
+    command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

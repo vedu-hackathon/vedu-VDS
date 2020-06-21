@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ru.cepu.online_course_stats",
+    "packageFolder": "ru/cepu/online_course_stats",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "online_course_stats",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "buildTool": "gradle",
+    "serverPort": "8081",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.3.0",
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "Y2RjMmZlZmVhYjBmZDkyMjIzYzdmY2MxNGQxODkyM2Q1YjRlZGFlZmE0NGM4NTQ1ZGYwYTZlNmVlN2U5MjFjODNiYWU0ZmU4ZjJmNjNjOWE0OGFmOTRiMmFkOWI2NmI3YjE3ZDA0YjFlZWEyZGY3ODFjMjgxZmM4ZmYzNWM0ZWU=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": []
+}

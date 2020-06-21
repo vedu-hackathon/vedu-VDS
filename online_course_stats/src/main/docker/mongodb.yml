@@ -1,0 +1,8 @@
+version: '2'
+services:
+  online_course_stats-mongodb:
+    image: mongo:4.0.12
+    ports:
+      - '27017:27017'
+    # volumes:
+    #     - ~/volumes/jhipster/online_course_stats/mongodb/:/data/db/

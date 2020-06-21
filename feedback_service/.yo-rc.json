@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ru.cepu.feedback_service",
+    "packageFolder": "ru/cepu/feedback_service",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "feedback_service",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "gradle",
+    "serverPort": "8085",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.3.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "MGMxYjE4MTlhYjZhMmQ5NDgzYjhiNTc0YTc4ZWJkYzEzMDZlODY5ZWYzZTdmY2MwYWVjMDRiZjRhZmUxNGYwYzZjMGVjYTE4NDdiMzA5ZmU4NGU1NDI5ZGYxOTQwODk2YjM0OGZhZDRjYzZkNWFjZWY1MTU0NGI3MDlkNDllY2I=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": []
+}

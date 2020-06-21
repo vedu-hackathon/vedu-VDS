@@ -1,0 +1,16 @@
+version: '2'
+services:
+  ex_program_analisys-mongodb:
+    image: mongo:4.0.12
+    ports:
+      - '27017:27017'
+    command: mongos --configdb ex_program_analisys-mongodb-config
+  ex_program_analisys-mongodb-node:
+    build:
+      context: .
+      dockerfile: mongodb/MongoDB.Dockerfile
+    command: mongod --replSet rs1 --noprealloc --smallfiles
+  ex_program_analisys-mongodb-config:
+    image: mongo:4.0.12
+    container_name: ex_program_analisys-mongodb-config
+    command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

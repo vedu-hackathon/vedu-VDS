@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "ru.cepu.ex_program_analisys",
+    "packageFolder": "ru/cepu/ex_program_analisys",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "ex_program_analisys",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "gradle",
+    "serverPort": "8084",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.3.0",
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "ODkwMThiNDhjZjk3NDc3Zjc0NmZlOTMwNzBmNDNiZmY1OTllZWIyMDBlZDE1MTY1NmJjYzQ5YjYzMDZkMzA4ZDQ2M2NhMTZkMDA5ZGZlYjA2Njg4Y2FlNDdjODAyNDc1YzlhNGQ5MmY4ZTA3ODJkZWRhNjhhNzcwZGU5MjI4ZjI=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": []
+}
